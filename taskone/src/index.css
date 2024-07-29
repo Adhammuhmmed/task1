@@ -1,0 +1,160 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --Main-color: #2c3e50;
+  --second-color: #1abc9c;
+
+
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.navbar {
+  background-color: var(--Main-color);
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  transition: all .5s;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar-nav .active {
+  background-color: #1abc9c;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: var(--Main-color);
+}
+
+.footer .social-icons span {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.footer .social-icons span i {
+  font-size: 22px;
+}
+.copyrights {
+  background-color: #1a252f;
+}
+
+.home {
+  background-color: var(--second-color);
+}
+.shape .line {
+  height: 4px;
+  width: 70px;
+  background-color: white;
+}
+
+.about {
+  background-color: var(--second-color);
+}
+
+.contact {
+  margin-top: 70px;
+}
+.contact .shape .line {
+  background-color: var(--Main-color);
+}
+.contact label {
+  font-weight: 600;
+  color: var(--second-color);
+}
+
+.contact input {
+  border-left: transparent;
+  border-top: transparent;
+  border-right: transparent;
+}
+.contact input:focus {
+  box-shadow: none;
+  border-color: rgba(128, 128, 128, 0.863);
+}
+
+.contact .btn {
+  background-color: var(--second-color);
+}
+
+.portfolio .shape .line {
+  background-color: var(--Main-color);
+}
+
+.portfolio .row .inner img {
+  border-radius: 7px;
+}
+
+.portfolio .row .inner {
+  position: relative;
+  cursor: pointer;
+}
+
+.portfolio .row .inner .layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(26, 188, 156, 0.795);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.portfolio .row .inner:hover .layout {
+  opacity: 1;
+}
+.portfolio .row .inner .layout i {
+  font-size: 55px;
+  color: white;
+}
+
+.portfolio {
+  margin-top: 70px;
+}
+
+.page-layout {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 91, 188, 0.39);
+  z-index: 9999;
+}
+
+.page-layout img {
+  margin-top: 150px;
+  width: 450px;
+  height: 400px;
+}
+
