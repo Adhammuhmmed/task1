@@ -96,7 +96,7 @@ h1 {
 }
 .contact input:focus {
   box-shadow: none;
-  border-color: gray;
+  border-color: rgba(128, 128, 128, 0.863);
 }
 
 .contact .btn {
