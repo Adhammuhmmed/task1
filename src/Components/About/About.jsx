@@ -8,7 +8,7 @@ export default function About() {
     <>
       <div className="about text-white text-center py-5 d-flex justify-content-center align-items-center">
         <div className="container py-5">
-          <h1 className="mt-5">About Component</h1>
+          <h1 className="mt-5 pt-5">About Component</h1>
           <div className="shape d-flex justify-content-center align-items-center">
             <div className="line"></div>
             <div className="icon mx-3">

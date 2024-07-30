@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <>
       <div className="contact py-5">
-        <div className="container">
+        <div className="container pt-5">
           <h1 className="text-center">Conatct Section</h1>
 
           <div className="shape d-flex justify-content-center align-items-center">

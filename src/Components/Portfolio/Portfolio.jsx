@@ -44,7 +44,7 @@ export default function Portfolio() {
       {overLay}
 
       <div className="portfolio py-4">
-        <div className="container">
+        <div className="container pt-5">
           <h1 className="text-center">Portfolio Component</h1>
           <div className="shape d-flex justify-content-center align-items-center">
             <div className="line"></div>

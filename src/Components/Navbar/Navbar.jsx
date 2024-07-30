@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className=" navbar navbar-expand-lg py-3">
       <div className="container">
         <NavLink className="navbar-brand text-white" to="">
-          Start Framework
+          <h2>Start Framework</h2>
         </NavLink>
         <button
           className="navbar-toggler"
@@ -47,7 +47,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg py-1">
           <div className="container">
             <NavLink className="navbar-brand text-white" to="">
-              Start Framework
+            <h2>Start Framework</h2>
             </NavLink>
             <button
               className="navbar-toggler"
@@ -87,7 +87,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg py-3">
           <div className="container">
             <NavLink className="navbar-brand text-white" to="">
-              Start Framework
+            <h2>Start Framework</h2>
             </NavLink>
             <button
               className="navbar-toggler"
