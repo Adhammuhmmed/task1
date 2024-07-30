@@ -13,10 +13,10 @@ import Contact from "./Components/Contact/Contact";
 function App() {
   let routers = createBrowserRouter([
     {
-      path: "",
+      path: "taskone",
       element: <Layout />,
       children: [
-        {path: 'home', element:  <Home /> },
+        {index: true, element:  <Home /> },
         { path: "about", element: <About /> },
         { path: "portfolio", element: <Portfolio /> },
         { path: "contact", element: <Contact /> },
